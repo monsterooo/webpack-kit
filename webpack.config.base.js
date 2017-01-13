@@ -73,8 +73,8 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-			template: './index.html'
-		}),
+      template: './index.html'
+    }),
     new webpack.optimize.DedupePlugin(),
     // 释放app为单独的css文件
     new ExtractTextPlugin('[name].[hash:5].css', {
