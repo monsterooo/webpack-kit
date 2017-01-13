@@ -1,12 +1,11 @@
 {
-  "name": "wp",
-  "version": "1.0.0",
-  "description": "",
+  "name": "webpack-kit",
+  "version": "0.0.1",
+  "description": "本仓库目标为了创建简单、快捷、可用于开发和产品的工作流基础配置",
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --config webpack.config.dev.js --port 8088 --inline --hot --inline --history-api-fallback --no-info",
-    "prod": "webpack -p --config webpack.config.prod.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prod": "webpack -p --config webpack.config.prod.js"
   },
   "keywords": [],
   "author": "",
