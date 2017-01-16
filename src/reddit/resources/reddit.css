@@ -1,0 +1,9 @@
+.reddit-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+ul {
+  list-style: none;
+}

@@ -2,6 +2,7 @@ import React from 'react';
 
 const Picker = ({options, value, onChange}) => {
   return(
+    <div>
     <span>
       <h3>{value}</h3>
       <select onChange={e => onChange(e.target.value)} value={value}>
@@ -10,6 +11,7 @@ const Picker = ({options, value, onChange}) => {
       )}
       </select>
     </span>
+    </div>
   )
 }
 
