@@ -39,10 +39,10 @@ module.exports = {
       },
       {
         test: /\.scss$/,
+        exclude: /node_modules/,
         loader: ExtractTextPlugin.extract(
           'style',
-          cssModule + '!postcss',
-          'sass'
+          cssModule + '!postcss!sass'
         )
       },
       {
