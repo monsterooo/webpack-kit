@@ -6,11 +6,12 @@ import styles from './table.css';
 class Table extends Component {
   render() {
     return(
-      <div>
+      <div styleName="table-box">
         <div styleName="table">
           <div styleName="row">
-            <div styleName="cell">A0</div>
-            <div styleName="cell">B1</div>
+              <div styleName="cell">CSSModules example</div>
+            <div styleName="cell">React.js</div>
+            <div styleName="cell">React Native</div>
           </div>
         </div>
       </div>

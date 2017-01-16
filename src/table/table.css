@@ -1,16 +1,18 @@
 /* .cell {
     composes: cell from './table.css';
 } */
-
+.table-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .table {
-    width: 400px;
-    background: pink;
 }
 
 .cell {
-    float: left; width: 154px; background: #eee; padding: 10px; margin: 10px 0 10px 10px;
+    float: left; background: #eee; padding: 10px; margin: 10px 0 10px 10px;
 }
 
 .row {
-  
+
 }
